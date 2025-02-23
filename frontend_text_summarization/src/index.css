@@ -1,0 +1,13 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; /* Professional, modern font */
+  background-color: #f4f7fa; /* Light gray-blue background */
+  color: #333; /* Dark gray for text */
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: #1a3c6e; /* Dark blue for headings */
+}

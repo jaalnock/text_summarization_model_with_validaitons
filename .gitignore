@@ -1,0 +1,90 @@
+# Python/Flask Backend
+# Virtual environments
+venv/
+env/
+*.venv/
+*.env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Dependency lock files (if using pipenv or poetry, though not in this case)
+Pipfile.lock
+poetry.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS/Windows/Linux system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Jupyter Notebook checkpoints (if you test with IPython)
+*.ipynb_checkpoints/
+
+# Python package distribution
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Model files or large data (if downloaded locally)
+*.pth
+*.bin
+*.safetensors
+models/
+
+# Node.js/React Frontend
+# Node modules
+node_modules/
+
+# Vite build output
+dist/
+dist-ssr/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency lock files (optional override)
+# package-lock.json (uncomment if you don’t want it tracked)
+# yarn.lock (uncomment if using Yarn and don’t want it tracked)
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vite cache
+.vite/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.swp
+*.bak
+*.tmp
+
+# OS-specific
+.DS_Store
+Thumbs.db
